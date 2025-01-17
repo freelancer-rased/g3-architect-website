@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* shared style  */
+.primary-font{
+    font-family: "Work Sans", serif;
+  }
+
+.btn-primary{
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 144, 14);
+    color: white;
+    font-weight: bold;
+}
+
+.primary-description{
+    color: rgb(114, 114, 114);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+header{
+    padding: 20px 120px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+main{
+    padding: 20px 120px;
+}
+
+section{
+    margin: 50px 0;
+}
+
+/* nav section style  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+
+/* header section style  */
+.header-conent{
+    max-width: 862px;
+    margin: 50px auto 30px auto;
+    text-align: center;
+}
+
+.header-conent h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.header-conent p{
+    line-height: 24px;
+    padding: 20px 0;
+}
+
+.banner-img img{
+    width: 1440px;
+    width: 100%;
+}
+
+
+/* Quick list of our features style  */
+.feature-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.teams{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    border-radius: 8px;
+}
+
+.teams img{
+    width: 220px
+}
+
+.quick-text{
+    color: #727272;
+}
+
+.feature-text{
+    color:#FF900E
+}
+
+.feature-content h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.feature-content p{
+    margin: 25px 0;
+    line-height: 24px;
+}
